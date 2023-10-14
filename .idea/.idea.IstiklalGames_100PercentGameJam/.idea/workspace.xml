@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04a5c2ff-0e81-4d11-998f-0160e51a50de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IstiklalGames_100PercentGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IstiklalGames_100PercentGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sami/Prefabs/B 26 V2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sami/Prefabs/B 26 V2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Core/Scripts/AircraftPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Core/Scripts/AircraftPhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Materials/Floor.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scenes/Cessna 172.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scenes/Cessna 172.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scripts/AirplaneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scripts/AirplaneController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -17,37 +22,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/UmutKaan/Scripts/CameraRotationHandler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Wj1Msb14SeNNfzTjatyF6PILe2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\UmutKaan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\UmutKaan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\UmutKaan\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\UmutKaan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\UmutKaan\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\UmutKaan\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\UnityCoreFolders\2021.3.31f1\Editor\Unity.exe" />
@@ -95,6 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697231132099</updated>
       <workItem from="1697231135764" duration="607000" />
+      <workItem from="1697277407502" duration="2767000" />
+      <workItem from="1697298769260" duration="2332000" />
     </task>
     <servers />
   </component>
