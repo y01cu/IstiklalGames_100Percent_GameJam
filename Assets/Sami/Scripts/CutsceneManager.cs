@@ -31,7 +31,7 @@ public class CutsceneManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
             PlayCutscene(0);
-        
+
         else if (Input.GetKeyDown(KeyCode.Alpha2))
             PlayCutscene(1);
         
@@ -59,8 +59,9 @@ public class CutsceneManager : MonoBehaviour
     {
         float fadeTime = 0.5f;
         float elapsedTime = 0f;
-        
-        subtitleText.text = cutsceneData.subtitle;
+
+        StartCoroutine(TypewriteText(cutsceneData.subtitle));
+        //subtitleText.text = cutsceneData.subtitle;
         //Text Fade In
         while (elapsedTime < fadeTime)
         {
@@ -84,6 +85,22 @@ public class CutsceneManager : MonoBehaviour
             subtitleText.color = new Color(subtitleText.color.r, subtitleText.color.g, subtitleText.color.b, 1 - elapsedTime / fadeTime);
             elapsedTime += Time.deltaTime;
             yield return null;
+        }
+    }
+
+    private IEnumerator TypewriteText(string text)
+    {
+        float elapsedTime = 0f;
+        float timePerCharacter = 0.1f;
+        int characterIndex = 0;
+        string currentText = "";
+        
+        while (characterIndex < text.Length)
+        {
+            currentText += text[characterIndex];
+            subtitleText.text = currentText;
+            characterIndex++;
+            yield return new WaitForSeconds(timePerCharacter);
         }
     }
 }
