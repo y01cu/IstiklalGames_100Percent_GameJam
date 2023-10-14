@@ -1328,6 +1328,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &892076220749206827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3495967019197906564}
+  m_Layer: 0
+  m_Name: PropellerPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3495967019197906564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892076220749206827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.094, y: 0.746, z: 0.937}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6540141744922963057}
+  m_Father: {fileID: 7181893208979605267}
+  m_RootOrder: 57
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &936240397944010053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,14 +1800,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246398712177410198}
-  m_LocalRotation: {x: 0.28940013, y: 0, z: -0, w: 0.9572082}
-  m_LocalPosition: {x: -1.1014066, y: 0.74877346, z: -0.62282944}
-  m_LocalScale: {x: 100.000015, y: 105.2919, z: 105.689674}
+  m_LocalRotation: {x: 0.27172968, y: -0, z: -0, w: 0.9623737}
+  m_LocalPosition: {x: -2.188, y: -0.057, z: -1.611}
+  m_LocalScale: {x: 100.00002, y: 100.15719, z: 100.224266}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7181893208979605267}
-  m_RootOrder: 57
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 3495967019197906564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 31.534, y: 0, z: 0}
 --- !u!33 &8729785163948059065
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3652,6 +3684,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4897111739243688310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6543119609557709021}
+  m_Layer: 0
+  m_Name: PropellerPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6543119609557709021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897111739243688310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.21, y: 0.746, z: 0.937}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1462538763104024501}
+  m_Father: {fileID: 7181893208979605267}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4980105968262705454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,13 +3990,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5551433391103214919}
-  m_LocalRotation: {x: -0.6975752, y: 0, z: -0, w: 0.71651155}
-  m_LocalPosition: {x: 1.2106509, y: 0.74877316, z: -0.6228282}
-  m_LocalScale: {x: 100.00002, y: 100.15719, z: 100.22427}
+  m_LocalRotation: {x: -0.6975752, y: -0, z: -0, w: 0.71651155}
+  m_LocalPosition: {x: 2.418, y: 0.003, z: -1.574}
+  m_LocalScale: {x: 100.00002, y: 100.15719, z: 100.224266}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7181893208979605267}
-  m_RootOrder: 58
+  m_Father: {fileID: 6543119609557709021}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2265303573160885287
 MeshFilter:
@@ -6144,8 +6208,8 @@ Transform:
   - {fileID: 758327545497534257}
   - {fileID: 3454068954608493980}
   - {fileID: 7860930861123880199}
-  - {fileID: 6540141744922963057}
-  - {fileID: 1462538763104024501}
+  - {fileID: 3495967019197906564}
+  - {fileID: 6543119609557709021}
   - {fileID: 1885264339202763488}
   - {fileID: 5068190165394438084}
   - {fileID: 7678258917458730566}
