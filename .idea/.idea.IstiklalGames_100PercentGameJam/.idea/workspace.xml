@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="04a5c2ff-0e81-4d11-998f-0160e51a50de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IstiklalGames_100PercentGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IstiklalGames_100PercentGameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sami/Prefabs/B 26 V2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sami/Prefabs/B 26 V2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Core/Scripts/AircraftPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Core/Scripts/AircraftPhysics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Materials/Floor.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scenes/Cessna 172.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scenes/Cessna 172.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scripts/AirplaneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/Scripts/AirplaneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Body0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Body0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Body1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Body1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Stabilizer_H.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Stabilizer_H.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Stabilizer_V.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Stabilizer_V.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Wing0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Wing0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Wing1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UmutKaan/Aircraft Physics/Example/SurfaceConfigs/Wing1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +107,7 @@
       <workItem from="1697231135764" duration="607000" />
       <workItem from="1697277407502" duration="2767000" />
       <workItem from="1697298769260" duration="2332000" />
+      <workItem from="1697303895920" duration="1781000" />
     </task>
     <servers />
   </component>
