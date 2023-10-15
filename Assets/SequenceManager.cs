@@ -14,6 +14,7 @@ public class SequenceManager : MonoBehaviour
     public CinemachineVirtualCamera cinemachineCamera;
     public Animator atat;
     public Transform plane;
+    public CanvasGroup inputGroup;
 
     private void Start()
     {
@@ -44,8 +45,45 @@ public class SequenceManager : MonoBehaviour
         yield return new WaitUntil(() => cart.m_Position >= 143);
         cinemachineCamera.Follow = plane;
         cinemachineCamera.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = new Vector3(0, 15, -20);
+
+        yield return new WaitForSeconds(3f);
+
+        StartCoroutine(InputSequence());
     }
-    
+
+    public IEnumerator InputSequence()
+    {
+        fadeManager.StartFadeOut();
+        
+        yield return new WaitForSeconds(0.8f);
+        
+        float elapsedTime = 0f;
+        
+        while (elapsedTime < 0.2f)
+        {
+            elapsedTime += Time.deltaTime;
+            float alpha = elapsedTime / 0.2f;
+            inputGroup.alpha = alpha;
+            yield return null;
+        }
+        
+        inputGroup.alpha = 1f;
+
+        yield return new WaitForSeconds(5);
+        
+        
+        elapsedTime = 0f;
+        
+        while (elapsedTime < 0.2f)
+        {
+            elapsedTime += Time.deltaTime;
+            float alpha = elapsedTime / 0.2f;
+            inputGroup.alpha = 1 - alpha;
+            yield return null;
+        }
+        
+        fadeManager.StartFadeIn();
+    }
 
     private IEnumerator TypewriteText(string text)
     {
