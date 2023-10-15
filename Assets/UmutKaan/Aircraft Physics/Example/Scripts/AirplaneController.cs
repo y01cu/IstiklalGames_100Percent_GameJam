@@ -28,6 +28,7 @@ public class AirplaneController : MonoBehaviour {
 
     private void Update() {
         Pitch = Input.GetAxis("Vertical");
+        Pitch = Mathf.Clamp(Pitch, Input.GetKey(KeyCode.S) ? -1f : 0.16f , 1f);
         Roll = Input.GetAxis("Horizontal");
         Yaw = Input.GetAxis("Yaw");
 
