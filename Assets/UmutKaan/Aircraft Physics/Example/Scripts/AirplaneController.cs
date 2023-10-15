@@ -13,7 +13,7 @@ public class AirplaneController : MonoBehaviour {
     [Range(-1, 1)] public float Yaw;
     [Range(-1, 1)] public float Roll;
     [Range(0, 1)] public float Flap;
-    [SerializeField] Text displayText = null;
+    //[SerializeField] Text displayText = null;
 
     float thrustPercent;
     float brakesTorque;
@@ -28,7 +28,7 @@ public class AirplaneController : MonoBehaviour {
 
     private void Update() {
         Pitch = Input.GetAxis("Vertical");
-        Pitch = Mathf.Clamp(Pitch, Input.GetKey(KeyCode.S) ? -1f : 0.16f , 1f);
+        //Pitch = Mathf.Clamp(Pitch, Input.GetKey(KeyCode.S) ? -1f : 0.02f , 1f);
         Roll = Input.GetAxis("Horizontal");
         Yaw = Input.GetAxis("Yaw");
 
@@ -44,10 +44,10 @@ public class AirplaneController : MonoBehaviour {
             brakesTorque = brakesTorque > 0 ? 0 : 100f;
         }
 
-        displayText.text = "V: " + ((int)rb.velocity.magnitude).ToString("D3") + " m/s\n";
-        displayText.text += "A: " + ((int)transform.position.y).ToString("D4") + " m\n";
-        displayText.text += "T: " + (int)(thrustPercent * 100) + "%\n";
-        displayText.text += brakesTorque > 0 ? "B: ON" : "B: OFF";
+        //displayText.text = "V: " + ((int)rb.velocity.magnitude).ToString("D3") + " m/s\n";
+        //displayText.text += "A: " + ((int)transform.position.y).ToString("D4") + " m\n";
+        //displayText.text += "T: " + (int)(thrustPercent * 100) + "%\n";
+        //displayText.text += brakesTorque > 0 ? "B: ON" : "B: OFF";
     }
 
     private void FixedUpdate() {
